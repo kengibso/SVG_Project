@@ -1,7 +1,10 @@
-<svg height="400" width="600"
+<svg id="font" height="400" width="600"
   xmlns="http://www.w3.org/2000/svg">
 
 <style type="text/css">
+  #font{
+    font-family: Helvetica, sans-serif;
+  }
   #outline{
   stroke-width:3;
   stroke: black;
@@ -58,7 +61,7 @@ fill: crimson;
 
 #preferred_l {
 fill: #512a44;
-opacity: .9
+opacity: 1
 }
 
 
@@ -165,8 +168,8 @@ font-size: 1.5em;
 
 
 <g id="legend">
-    <text id="Carley_l" x="490" y="173">Now</text>
-    <text id="Cesar_l" x="490" y="237">Preferred</text>
+    <text id="now_l" x="490" y="173">Now</text>
+    <text id="preferred_l" x="490" y="237">Preferred</text>
 </g>
 <!--
 
