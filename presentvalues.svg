@@ -30,19 +30,23 @@
   font-weight: bold;
   font-size: 1.75em;
   fill: black;
+  font-family: Helvetica, sans-serif;
   }
   #markerlabel{
   font-size: 0.85em;
   fill: black;
+  font-family: Helvetica, sans-serif;
   }
   #axislabel{
   font-size: 1.25em;
   fill: black;
+  font-family: Helvetica, sans-serif;
   }
   #group{
   font-size: 1.5em;
   font-weight: bold;
   fill: crimson;
+  font-family: Helvetica, sans-serif;
   }
 
 #Carley {
@@ -88,6 +92,7 @@ opacity: 1
 #legend{
 font-weight: bold;
 font-size: 1.5em;
+font-family: Helvetica, sans-serif;
 }
 
 
