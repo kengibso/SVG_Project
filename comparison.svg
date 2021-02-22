@@ -1,7 +1,10 @@
-<svg height="400" width="600"
+<svg id="font" height="400" width="600"
   xmlns="http://www.w3.org/2000/svg">
 
 <style type="text/css">
+  #font{
+    font-family: Helvetica, sans-serif;
+  }
   #outline{
   stroke-width:3;
   stroke: black;
@@ -42,51 +45,30 @@
   fill: crimson;
   }
 
-#Carley {
+#now{
 fill: crimson;
-opacity: .8
+opacity: 1
 }
 
-#Cesar {
+#preferred{
 fill: #512a44;
-opacity: .8
+opacity: .9
 }
 
-#Kendall {
-fill: #014208;
-opacity: 0.6
-}
-
-#Melissa {
-fill: #f1be48;
-opacity: 0.5
-}
-
-
-#Carley_l{
+#now_l{
 fill: crimson;
 }
 
-#Cesar_l {
+#preferred_l {
 fill: #512a44;
-opacity: .8
+opacity: 1
 }
 
-#Kendall_l {
-fill: #014208;
-opacity: 0.6
-}
-
-#Melissa_l {
-fill: #f1be48;
-opacity: 0.5
-}
 
 #legend{
 font-weight: bold;
 font-size: 1.5em;
 }
-
 
 </style>
 
@@ -150,7 +132,7 @@ font-size: 1.5em;
   <text x="55" y="83">80</text>
 </g>
 
-<text id="title" x="110" y="15"> KSB Present Values </text>
+<text id="title" x="100" y="15"> KSB Average Values </text>
 
 <g id="axislabel">
     <text x="170" y="45">Flexibility</text>
@@ -170,23 +152,34 @@ font-size: 1.5em;
       <text x="345" y="380" transform="rotate(315, 345, 380)">Market</text>
   </g>
 
-<polygon id="Carley" points="178,178 145,255 250,250 223,176"/>
-<polygon id="Cesar" points="166,166 212,187 221,221 117,282"/>
-<polygon id="Kendall" points="193,193 226,173 271,271 153,246"/>
-<polygon id="Melissa" points="161,161 216,183 248,248 153,246"/>
+<polygon id="now" points="175,175 142,257.5 247,247 219,180"/>
+<polygon id="preferred" points="149,149 164,235 223,223 241,158"/>
+<!-- <polygon id="Cesar" points="158,158 167,232 233,233 242,157"/>
+<polygon id="Kendal" points="160,160 157,242 231,231 236,163"/>
+<polygon id="Melissa" points="130,130 158,241 217,217 221,178"/> -->
 
-<!-- Legend -->
-<!-- <rect width="170" height="260" x="410" y="70" style="opacity: 0.6"/> -->
-<polygon id="Carley_l" points="439,89 422.5,127.5 475,125 461.5,88"/>
-<polygon id="Cesar_l" points="443,143 466,153.5 470.5,170.5 418.5,201"/>
-<polygon id="Kendall_l" points="441.5,216.5 458,206.5 480.5,255.5 421.5,243"/> <!-- /2 + 350 -->
-<polygon id="Melissa_l" points="430.5,270.5 463,281.5 479,314 431.5,313"/>
+
+<svg viewBox="0 0 400 400" width="200" x="59%" y="-10%">
+<polygon id="now_l" points="175,175 142,257.5 247,247 219,180"/>
+</svg>
+<svg viewBox="0 0 400 400" width="200" x="59%" y="10%">
+<polygon id="preferred_l" points="149,149 164,235 223,223 241,158"/>
+</svg>
+
 
 <g id="legend">
-    <text id="Carley_l" x="490" y="108">Carley</text>
-    <text id="Cesar_l" x="490" y="172">Cesar</text>
-    <text id="Kendall_l" x="490" y="231">Kendall</text>
-    <text id="Melissa_l" x="490" y="294">Melissa</text>
+    <text id="now_l" x="490" y="173">Now</text>
+    <text id="preferred_l" x="490" y="237">Preferred</text>
 </g>
+<!--
 
+<polygon id="Carley_l" points="439,89 422.5,127.5 475,125 461.5,88" fill="crimson"/>
+<polygon id="Cesar_l" points="433,83 456,93.5 360.5,110.5 408.5,141"/>
+ <polygon id="Kendal_l" points="193,193 226,173 271,271 153,246"/>
+<polygon id="Melissa_l" points="161,161 216,183 248,248 153,246"/>
+
+<use href="#Cesar" x="300" y="-100"/>
+<use href="#Kendal" x="250" y="0"/>
+<use href="#Melissa" x="280" y="100"/>
+-->
 </svg>
