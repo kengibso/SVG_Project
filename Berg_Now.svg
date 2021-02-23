@@ -85,6 +85,7 @@ opacity: 0.5
 #legend{
 font-weight: bold;
 font-size: 1.5em;
+opacity: 1;
 }
 
 
@@ -183,10 +184,10 @@ font-size: 1.5em;
 <polygon id="Melissa_l" points="430.5,270.5 463,281.5 479,314 431.5,313"/>
 
 <g id="legend">
-    <text id="Carley_l" x="490" y="108">Carley</text>
-    <text id="Cesar_l" x="490" y="172">Cesar</text>
-    <text id="Kendall_l" x="490" y="231">Kendall</text>
-    <text id="Melissa_l" x="490" y="294">Melissa</text>
+    <text id="Carley_l" x="490" y="108" opacity="1">Carley</text>
+    <text id="Cesar_l" x="490" y="172" opacity="1">Cesar</text>
+    <text id="Kendall_l" x="490" y="231" opacity="1">Kendall</text>
+    <text id="Melissa_l" x="490" y="294" opacity="1">Melissa</text>
 </g>
 
 </svg>
