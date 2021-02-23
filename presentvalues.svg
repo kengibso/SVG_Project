@@ -153,7 +153,7 @@ font-size: 1.5em;
   <text x="55" y="83">80</text>
 </g>
 
-<text id="title" x="50" y="15"> KSB Present Values </text>
+<text id="title" x="110" y="15"> KSB Present Values </text>
 
 <g id="axislabel">
     <text x="170" y="45">Flexibility</text>
@@ -348,7 +348,7 @@ font-size: 1.5em;
   <text x="55" y="83">80</text>
 </g>
 
-<text id="title" x="50" y="15"> KSB Preferred Values </text>
+<text id="title" x="95" y="15"> KSB Preferred Values </text>
 
 <g id="axislabel">
     <text x="170" y="45">Flexibility</text>
@@ -532,7 +532,7 @@ font-size: 1.5em;
   <text x="55" y="83">80</text>
 </g>
 
-<text id="title" x="50" y="15"> KSB Average Values </text>
+<text id="title" x="100" y="15"> KSB Average Values </text>
 
 <g id="axislabel">
     <text x="170" y="45">Flexibility</text>
