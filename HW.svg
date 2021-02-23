@@ -1,5 +1,5 @@
 
-<svg id="font" height="400" width="2000"
+<svg id="font" height="450" width="2000"
   xmlns="http://www.w3.org/2000/svg">
 
 <style type="text/css">
@@ -111,7 +111,7 @@ opacity: 1
 }
 
 </style>
-
+<svg viewBox="0 0 450 450" width="400" x="0%" y="0%">
 <rect id="outline" width="300" height="300" x="50" y="50"/>
 
 <g id="gridlines">
@@ -196,24 +196,24 @@ opacity: 1
 <polygon id="Cesar" points="166,166 212,187 221,221 117,282"/>
 <polygon id="Kendall" points="193,193 226,173 271,271 153,246"/>
 <polygon id="Melissa" points="161,161 216,183 248,248 153,246"/>
-
+</svg>
 <!-- Legend -->
-<!-- <rect width="170" height="260" x="410" y="70" style="opacity: 0.6"/> -->
-<polygon id="Carley_l" points="439,89 422.5,127.5 475,125 461.5,88"/>
-<polygon id="Cesar_l" points="443,143 466,153.5 470.5,170.5 418.5,201"/>
-<polygon id="Kendall_l" points="441.5,216.5 458,206.5 480.5,255.5 421.5,243"/> <!-- /2 + 350 -->
-<polygon id="Melissa_l" points="430.5,270.5 463,281.5 479,314 431.5,313"/>
+<!-- <+20   rect width="170" height="260" x="410" y="70" style="opacity: 0.6"/> -->
+<polygon id="Carley_l" points="389,89 382.5,127.5 435,125 421.5,88"/>
+<polygon id="Cesar_l" points="403,143 426,153.5 430.5,170.5 378.5,201"/>
+<polygon id="Kendall_l" points="401.5,216.5 418,206.5 440.5,255.5 381.5,243"/> <!-- /2 + 350 -->
+<polygon id="Melissa_l" points="390.5,270.5 423,281.5 439,314 391.5,313"/>
 
 <g id="legend">
-    <text id="Carley_l" x="490" y="108">Carley</text>
-    <text id="Cesar_l" x="490" y="172">Cesar</text>
-    <text id="Kendall_l" x="490" y="231">Kendall</text>
-    <text id="Melissa_l" x="490" y="294">Melissa</text>
+    <text id="Carley_l" x="440" y="108">Carley</text>
+    <text id="Cesar_l" x="440" y="172">Cesar</text>
+    <text id="Kendall_l" x="440" y="231">Kendall</text>
+    <text id="Melissa_l" x="440" y="294">Melissa</text>
 </g>
 
 
 <!-- Preferences -->
-<svg viewBox="0 0 400 400" width="400" x="32%" y="0%">
+<svg viewBox="0 0 450 450" width="400" x="32%" y="0%">
 <rect id="outline" width="300" height="300" x="50" y="50"/>
 
 <g id="gridlines">
@@ -300,24 +300,24 @@ opacity: 1
 <polygon id="Melissa" points="130,130 158,241 217,217 221,178"/>
 </svg>
 
-<svg viewBox="0 0 400 400" width="200" x="50%" y="-20%">
+<svg viewBox="0 0 450 450" width="200" x="47.75%" y="-20%">
 <polygon id="Carley_l" points="150,150 175,225 210,210 265,135"/>
 </svg>
-<svg viewBox="0 0 400 400" width="200" x="50%" y="-8%">
+<svg viewBox="0 0 450 450" width="200" x="47.8%" y="-9.5%">
 <polygon id="Cesar_l" points="158,158 167,232 233,233 242,157"/>
 </svg>
-<svg viewBox="0 0 400 400" width="200" x="50%" y="7%">
+<svg viewBox="0 0 450 450" width="200" x="48%" y="3%">
 <polygon id="Kendall_l" points="160,160 157,242 231,231 236,163"/>
 </svg>
-<svg viewBox="0 0 400 400" width="200" x="50.5%" y="24%">
+<svg viewBox="0 0 450 450" width="200" x="48.5%" y="17.%">
 <polygon id="Melissa_l" points="130,130 158,241 217,217 221,178"/>
 </svg>
 
 <g id="legend">
-    <text id="Carley_l" x="1150" y="108">Carley</text>
-    <text id="Cesar_l" x="1150" y="172">Cesar</text>
-    <text id="Kendall_l" x="1150" y="231">Kendall</text>
-    <text id="Melissa_l" x="1150" y="294">Melissa</text>
+    <text id="Carley_l" x="1075" y="108">Carley</text>
+    <text id="Cesar_l" x="1075" y="172">Cesar</text>
+    <text id="Kendall_l" x="1075" y="231">Kendall</text>
+    <text id="Melissa_l" x="1075" y="294">Melissa</text>
 </g>
 
 
@@ -325,7 +325,7 @@ opacity: 1
 
 <!--Comparison-->
 
-<svg viewBox="0 0 400 400" width="400" x="65%" y="0%">
+<svg viewBox="0 0 450 450" width="400" x="65%" y="0%">
 
 <rect id="outline" width="300" height="300" x="50" y="50"/>
 
@@ -414,17 +414,17 @@ opacity: 1
 <polygon id="Melissa" points="130,130 158,241 217,217 221,178"/> -->
 </svg>
 
-<svg viewBox="0 0 400 400" width="200" x="83%" y="-10%">
+<svg viewBox="0 0 450 450" width="200" x="81.2%" y="-10%">
 <polygon id="now_l" points="175,175 142,257.5 247,247 219,180"/>
 </svg>
-<svg viewBox="0 0 400 400" width="200" x="83%" y="10%">
+<svg viewBox="0 0 450 450" width="200" x="81.2%" y="05%">
 <polygon id="preferred_l" points="149,149 164,235 223,223 241,158"/>
 </svg>
 
 
 <g id="legend">
-    <text id="now_l" x="1810" y="173">Now</text>
-    <text id="preferred_l" x="1810" y="237">Preferred</text>
+    <text id="now_l" x="1750" y="180">Now</text>
+    <text id="preferred_l" x="1750" y="236">Preferred</text>
 </g>
 
 
